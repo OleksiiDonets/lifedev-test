@@ -1,0 +1,34 @@
+{
+  "menu":[
+    {
+      "name": "Dashboard",
+      "icon": "dashboard",
+      "uri": "#"
+    },
+    {
+      "name": "Product",
+      "icon": "product",
+      "uri": "#"
+    },
+    {
+      "name": "Customers",
+      "icon": "customers",
+      "uri": "#"
+    },
+    {
+      "name": "Income",
+      "icon": "income",
+      "uri": "#"
+    },
+    {
+      "name": "Promote",
+      "icon": "promote",
+      "uri": "#"
+    },
+    {
+      "name": "Help",
+      "icon": "help",
+      "uri": "#"
+    }
+  ]
+}
