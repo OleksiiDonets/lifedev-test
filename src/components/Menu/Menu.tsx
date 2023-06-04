@@ -56,8 +56,6 @@ const MenuList = styled.ul`
   padding: 0;
   width: 100%;
   height: 100%;
-  @media(max-width:1320px) {
-  }
 `
 
 export const Menu:FC<IMenu> = () => {

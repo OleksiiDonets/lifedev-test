@@ -18,7 +18,7 @@ const  StyledSection = styled.section`
   align-items: center;
   width:100%;
   padding-top: 41px;
-  @media(max-width: 1440px){
+  @media screen and ( max-width: 1440px ){
     align-items: start;
     padding-right:20px;
   }

@@ -5,7 +5,7 @@ import { ITable } from '@/types/global';
 
 const TableContainer = styled.div`
   margin-bottom: 30px;
-  @media(max-width: 1110px){
+  @media screen and ( max-width: 1110px ){
     width: 100%;
     overflow-x: scroll;
     padding: 0 15px;
@@ -66,7 +66,7 @@ const TablePagination = styled.nav`
   li {
     
   }
-  @media (max-width: 637px){
+  @media screen and (max-width: 637px){
     margin-top: 15px;
   }
 `;
@@ -84,7 +84,6 @@ const TablePaginationItem = styled.li<{$active?: boolean}>`
       font-size: 12px;
       font-weight: 500;
       cursor: pointer;
-      
       svg{
         path{
           fill: #404B52;
@@ -175,4 +174,4 @@ export const Table: FC<ITable> = ({ data }) => {
       </TableFooter>
     </>
   )
-}
+};

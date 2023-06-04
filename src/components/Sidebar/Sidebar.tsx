@@ -8,6 +8,7 @@ const SidebarContainer = styled.aside`
   display: grid;
   grid-template-rows: min-content;
   max-width: 306px;
+  width: 100%;
   height: 100vh;
   padding: 39px 28px 76px 28px;
   background-color: #fff;
@@ -16,10 +17,9 @@ const SidebarContainer = styled.aside`
   a, span {
     transition: display .4s ease;
   }
-  @media(max-width:1320px){
+  @media screen and ( max-width: 1320px ){
     max-width: 100px;
-    a,
-    span {
+    a,span {
       opacity: 0;
       display: none;
     }
@@ -32,15 +32,12 @@ const SidebarContainer = styled.aside`
       span {
         opacity: 1;
         display: block;
-
-
       }
       li:after{
         display: block;
       }
     }
   }
-
 `;
 
 const LogotypeContainer = styled.div`
@@ -112,4 +109,4 @@ export const Sidebar = () => {
       </UserContainer>
     </SidebarContainer>
   )
-}
+};

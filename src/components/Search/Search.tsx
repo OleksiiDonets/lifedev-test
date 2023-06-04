@@ -31,7 +31,7 @@ const SearchContainer = styled.label`
       outline: none;
     }
   }
-  @media (max-width: 637px) {
+  @media screen and ( max-width: 637px ) {
     margin-bottom: 15px;
 
   }

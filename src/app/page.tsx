@@ -28,7 +28,7 @@ const GlobalStyle = createGlobalStyle`
 const Container = styled.main`
   display: flex;
   gap: 71px;
-  @media( max-width: 1320px){
+  @media screen and ( max-width: 1320px ){
     gap: 40px;
   }
 `;
