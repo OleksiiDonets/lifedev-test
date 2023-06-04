@@ -5,7 +5,6 @@ const poppins = Poppins({
   weight: ['400', '500', '600'],
   subsets: ['latin'],
 });       
-const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Lifedev test task',

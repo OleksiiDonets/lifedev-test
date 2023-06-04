@@ -1,8 +1,7 @@
 'use client';
-import { createGlobalStyle } from 'styled-components';
-import Image from 'next/image'
-import data from '@/data/usersDb.json';
+import { createGlobalStyle, styled } from 'styled-components';
 import { Sidebar } from '@/components/Sidebar/Sidebar';
+import { MainContent } from '@/components/MainContent/MainContent';
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -21,16 +20,28 @@ const GlobalStyle = createGlobalStyle`
     color: inherit;
     text-decoration: none;
   }
-`
+  button{
+    font-family: inherit;
+  }
+`;
+
+const Container = styled.main`
+  display: flex;
+  gap: 71px;
+  @media( max-width: 1320px){
+    gap: 40px;
+  }
+`;
 
 export default async function Home() {
 
   return (
     <>
     <GlobalStyle/>
-    <main>
+    <Container>
       <Sidebar/> 
-    </main>
+      <MainContent />
+    </Container>
     </>
     
   )
