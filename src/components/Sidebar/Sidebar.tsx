@@ -4,7 +4,6 @@ import logotype from '@/assets/img/logotype.svg';
 import avatar from '@/assets/img/avatar.png';
 import { Menu } from '@/components/Menu/Menu';
 
-
 const SidebarContainer = styled.aside`
   display: grid;
   grid-template-rows: min-content;

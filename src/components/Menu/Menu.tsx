@@ -7,9 +7,6 @@ import iconKey from '@/assets/img/key-icon.svg';
 import iconProduct from '@/assets/img/product-icon.svg';
 import iconPromote from '@/assets/img/promote-icon.svg';
 import iconUser from '@/assets/img/user-icon.svg';
-// import menuArrow from '@/assets/img/menu-arrow.svg';
-import menuArrowActive from '@/assets/img/menu-arrow-active.svg';
-
 interface IMenu {
   hovered?: boolean;
 }

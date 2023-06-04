@@ -126,7 +126,6 @@ export const Table: FC<ITable> = ({ data }) => {
                 <div>{ customer.phone}</div>
                 <div>{ customer.email}</div>
                 <div>{ customer.country}</div>
-                {/* <div>{ customer.status}</div> */}
                 <Bage status={customer.status}/>
               </TableItem>
             ))

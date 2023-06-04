@@ -1,4 +1,4 @@
-import { Inter, Poppins } from 'next/font/google'
+import { Poppins } from 'next/font/google'
 import { StyledComponentsRegistry } from '@/lib/registry';
 
 const poppins = Poppins({

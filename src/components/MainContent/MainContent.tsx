@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react';
+import { useState, useMemo, FC } from 'react';
 import styled from 'styled-components';
 import { Table } from '@/components/Table/Table';
 import { Search } from '@/components/Search/Search';
@@ -43,7 +43,7 @@ const StyledTopContainer = styled.div`
   padding: 0 53px 40px 38px;
 `;
 
-export const MainContent = () => {
+export const MainContent:FC = () => {
   const [ searchStr, setSearchStr ] = useState('');
   const [ visibleUsers, setVisibleUsers ] = useState('');
 

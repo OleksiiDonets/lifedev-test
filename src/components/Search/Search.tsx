@@ -1,8 +1,7 @@
-import { Dispatch, FC, SetStateAction } from 'react';
+import { FC } from 'react';
 import styled from 'styled-components';
 import Image from 'next/image';
 import search from '@/assets/img/search-icon.svg';
-import { on } from 'events';
 
 interface ISearch {
   onSearch: (value:string) => void;
